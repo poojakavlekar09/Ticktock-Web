@@ -26,4 +26,7 @@ It supports mock authentication and dynamic routing for viewing and managing wee
   - Stored the access token securely in the session
 - Implemented API mocking using **Next.js App Router** route handlers
 - Designed a **responsive UI** across all pages using Tailwind CSS
-- Used memoization hook for performance optimization. 
+- Used memoization hook for performance optimization.
+
+## Time Spent
+8 hours
