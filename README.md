@@ -16,3 +16,14 @@ It supports mock authentication and dynamic routing for viewing and managing wee
    
 7. **Environment variables:**
     NEXTAUTH_SECRET= secretkey
+   
+## Features
+- Built the following pages:
+  - Login Page (with validation)
+  - Dashboard Page
+  - List View Page
+- Used **next-auth** for mock authentication
+  - Stored the access token securely in the session
+- Implemented API mocking using **Next.js App Router** route handlers
+- Designed a **responsive UI** across all pages using Tailwind CSS
+- Used memoization hook for performance optimization. 
