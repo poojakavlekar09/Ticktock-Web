@@ -34,19 +34,19 @@ const handler = NextAuth({
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.accessToken = user.token; // Add token to JWT
+        token.accessToken = user.token; 
       }
       return token;
     },
     async session({ session, token }) {
-      session.accessToken = token.accessToken; // Expose token in session
+      session.accessToken = token.accessToken; 
       return session;
     }
   },
   pages: {
-    signIn: "/login", // optional: your custom login page
+    signIn: "/login", 
   },
-  secret: process.env.NEXTAUTH_SECRET, // Add in .env.local
+  secret: process.env.NEXTAUTH_SECRET, 
 });
 
 export { handler as GET, handler as POST };

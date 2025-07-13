@@ -1,6 +1,4 @@
-"use client";
-
-export default function Header() {
+export default function Footer() {
 
     return (
         <div className="bg-white rounded-lg shadow-sm p-8 mt-4 w-full max-w-7xl text-center text-xs text-gray-400">
